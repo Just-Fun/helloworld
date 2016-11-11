@@ -11,5 +11,7 @@ public class HelloWorldApplication {
 		ConfigurableApplicationContext ctx = SpringApplication.run(HelloWorldApplication.class, args);
 
 		HelloBean helloBean = ctx.getBean(HelloBean.class);
-	}
+
+        System.out.println(helloBean.sayHello());
+    }
 }
