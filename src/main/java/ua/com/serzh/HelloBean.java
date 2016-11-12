@@ -11,5 +11,4 @@ public class HelloBean {
     public  String sayHello() {
         return "Say Hello or Ola!";
     }
-
 }
